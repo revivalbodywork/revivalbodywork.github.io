@@ -3,7 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 
+<<<<<<< HEAD:index.php
 	<title>Revival Bodywork &middot; Message therapy</title>
+=======
+	<title>Revival Bodywork Message Therapy</title>
+>>>>>>> origin/master:index.html
 	
 	<!-- Main CSS file -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -19,7 +23,11 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-57-precomposed.png">
 	-->
+<<<<<<< HEAD:index.php
     
+=======
+	
+>>>>>>> origin/master:index.html
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
