@@ -70,6 +70,44 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+.btn-send{
+  background-color: #383838;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+  padding: 8px 14px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-send:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-readmore{
+  background-color: #383838;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-readmore:hover{
+  background-color: #000;
+  color: #fff;	
+}
+
 /*
  |------------------------------------------------------------------------------
  | Header
@@ -406,9 +444,9 @@ h1, h2, h3, h4, h5, h6 {
  |------------------------------------------------------------------------------
  */
 
-#contact{
+#contact {
   padding-top: 130px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 
 .contact-info .contact-content{
@@ -422,6 +460,17 @@ h1, h2, h3, h4, h5, h6 {
 .contact-info p i{
   font-size: 16px;
   margin-right: 10px;
+}
+
+/*
+ |------------------------------------------------------------------------------
+ | Affiliations
+ |------------------------------------------------------------------------------
+ */
+
+#affiliations {
+  text-align: right;
+  padding-bottom: 120px;
 }
 
 /*

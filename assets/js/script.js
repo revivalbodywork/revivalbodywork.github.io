@@ -28,6 +28,8 @@ jQuery(function($){
       scrollTop: $(anchor.attr('href')).offset().top -79
     }, 1000);
     
+    anchor.blur();
+    
     event.preventDefault();
     
   });
@@ -49,11 +51,12 @@ jQuery(function($){
   parallax();
   
   $('.parallax-quotes').owlCarousel({
+    paginationSpeed: 2000,
     singleItem:true,
-    lazyLoad: true,
+    lazyLoad : true,
     pagination:false,
-    navigation: false,
-    autoPlay: true
+    navigation : false,
+    autoPlay: true,
   });
   
   /*
