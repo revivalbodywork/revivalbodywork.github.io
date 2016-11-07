@@ -70,7 +70,7 @@ jQuery(function($){
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn();
     } else {
-      $('.scroll-up').fadeOut();
+      $('.back-to-top').fadeOut();
     }
     
   });
