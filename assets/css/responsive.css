@@ -5,7 +5,9 @@
  */
 
 @media (min-width: 1200px) {
-
+  .service-item {
+    min-height: 190px;
+  }
 }
 
 /*
@@ -36,7 +38,11 @@
     letter-spacing:2px;
     margin-bottom:20px;
   }
-
+  
+  .service-item {
+    min-height: 240px;
+  }
+  
   #pricing, #packages {
     padding-top: 110px;
     padding-bottom: 100px;
@@ -61,7 +67,7 @@
     margin-right: 13px;
   }
 
-  #home-carousel  .item {
+  #home-carousel .item {
     height: 500px;
   }
 
@@ -87,7 +93,11 @@
     padding-right: 0;
     padding-top: 9%;
   }
-
+  
+  .service-item {
+    min-height: 220px;
+  }
+  
   .back-to-top {
     display: none!important;
   }
@@ -133,10 +143,14 @@
     margin-top: 18px;
   }
 
-  #home-carousel  .item {
+  #home-carousel .item {
     height: 300px;
   }
-
+  
+  #home-carousel .btn-send {
+    display: none!important;
+  }
+  
   .carousel-caption h1 {
     font-size:16px;
     margin-bottom:0;
