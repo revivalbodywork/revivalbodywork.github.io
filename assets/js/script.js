@@ -3,6 +3,11 @@ jQuery(function($){
   'use strict';
   
   var $window = $(window);
+  var isMobile = false;
+  
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    isMobile = true;
+  }
   
   /*
    |----------------------------------------------------------------------------
@@ -41,7 +46,9 @@ jQuery(function($){
    */
   
   function parallax () {
-    $('#parallax').parallax('50%', 0.3);
+    if (!isMobile) {
+      $('#parallax').parallax('50%', 0.3);
+    }
   }
   
   $window.on('load', function () {
